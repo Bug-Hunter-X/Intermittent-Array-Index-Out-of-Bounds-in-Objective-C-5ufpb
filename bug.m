@@ -1,0 +1,1 @@
+This code attempts to access an array element using an index that is out of bounds.  This can lead to unexpected behavior or crashes.  The error is subtle because it doesn't always manifest, depending on the data in the array.  The problem lies in the calculation of `index` which can, under certain conditions, exceed the valid index range of the array.
